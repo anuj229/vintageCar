@@ -13,7 +13,12 @@ body {
     margin: 0 auto;
 }
 header {
-    background: -webkit-linear-gradient(top, #404039, #D4D4BF);
+    background:-webkit-linear-gradient(top, #404039, #D4D4BF);
+    background:    -moz-linear-gradient(top, #404039, #D4D4BF);
+background:     -ms-linear-gradient(top,#404039, #D4D4BF);
+background:      -o-linear-gradient(top, #404039, #D4D4BF);
+background:         linear-gradient(top, #404039, #D4D4BF);
+
     height: 80px;
     text-align: center;
 }
@@ -32,6 +37,11 @@ header {
 }
 .logo {} nav {} nav ul {
     background: -webkit-linear-gradient(left, #FFCC00, #E5E379);
+    background:    -moz-linear-gradient(left, #FFCC00, #E5E379);
+background:     -ms-linear-gradient(left, #FFCC00, #E5E379);
+background:      -o-linear-gradient(left, #FFCC00, #E5E379);
+background:         linear-gradient(left, #FFCC00, #E5E379);
+
     list-style: none;
     text-align: center;
     overflow: hidden;
@@ -46,6 +56,10 @@ nav a {
     margin-bottom: 10px;
     padding: 10px;
     background: -webkit-linear-gradient(top, black, #D4D4BF);
+     background:    -moz-linear-gradient(top, black, #D4D4BF);
+background:     -ms-linear-gradient(top, black, #D4D4BF);
+background:      -o-linear-gradient(top, black, #D4D4BF);
+background:         linear-gradient(top, black, #D4D4BF);
     color: white;
     margin-right: 10px;
     display: block;
@@ -59,6 +73,10 @@ nav a:hover {
     text-decoration: none;
     color: white;
     background: -webkit-linear-gradient(top, maroon, white);
+     background:    -moz-linear-gradient(top, maroon, white);
+background:     -ms-linear-gradient(top, maroon, white);
+background:      -o-linear-gradient(top, maroon, white);
+background:         linear-gradient(top, maroon, white);
     width: 100px;
 }
 #content {
@@ -219,6 +237,10 @@ ul {
 button {
     border-radius: 8px;
     background: -webkit-linear-gradient(top, #ffaa00, #D4D4BF);
+    background:    -moz-linear-gradient(top, #ffaa00, #D4D4BF);
+background:     -ms-linear-gradient(top,#ffaa00, #D4D4BF);
+background:      -o-linear-gradient(top, #ffaa00, #D4D4BF);
+background:         linear-gradient(top, #ffaa00, #D4D4BF);
     line-height: 20px;
 }
 #about {
@@ -271,6 +293,10 @@ iframe {
 }
 #footer {
     background: -webkit-linear-gradient(top, #404039, #D4D4BF);
+    background:    -moz-linear-gradient(top, #404039, #D4D4BF);
+background:     -ms-linear-gradient(top,#404039, #D4D4BF);
+background:      -o-linear-gradient(top, #404039, #D4D4BF);
+background:         linear-gradient(top, #404039, #D4D4BF);
     height: 70px;
 }
 #contactContent {
@@ -615,6 +641,10 @@ form h2 {
     }
     nav {} nav ul {
         background: -webkit-linear-gradient(left, #FFCC00, #E5E379);
+        background:    -moz-linear-gradient(left, #FFCC00, #E5E379);
+background:     -ms-linear-gradient(left, #FFCC00, #E5E379);
+background:      -o-linear-gradient(left, #FFCC00, #E5E379);
+background:         linear-gradient(left, #FFCC00, #E5E379);
         list-style: none;
         text-align: center;
         overflow: hidden;
@@ -642,6 +672,10 @@ form h2 {
         text-decoration: none;
         color: white;
         background: -webkit-linear-gradient(top, maroon, white);
+        background:    -moz-linear-gradient(top, maroon, white);
+background:     -ms-linear-gradient(top, maroon, white);
+background:      -o-linear-gradient(top, maroon, white);
+background:         linear-gradient(top, maroon, white);
         padding: 10px;
         width: 100px;
     }
@@ -819,6 +853,10 @@ form h2 {
 @media screen and (max-width: 700px) {
     nav ul {
         background: -webkit-linear-gradient(left, #FFCC00, #E5E379);
+        background:    -moz-linear-gradient(left, #FFCC00, #E5E379);
+background:     -ms-linear-gradient(left, #FFCC00, #E5E379);
+background:      -o-linear-gradient(left, #FFCC00, #E5E379);
+background:         linear-gradient(left, #FFCC00, #E5E379);
         list-style: none;
         text-align: center;
         overflow: hidden;
@@ -848,6 +886,10 @@ form h2 {
         text-decoration: none;
         color: white;
         background: -webkit-linear-gradient(top, maroon, white);
+        background:    -moz-linear-gradient(top, maroon, white);
+background:     -ms-linear-gradient(top, maroon, white);
+background:      -o-linear-gradient(top, maroon, white);
+background:         linear-gradient(top, maroon, white);
         padding: auto;
         width: auto;
     }
