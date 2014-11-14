@@ -1,0 +1,42 @@
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+
+.carousel h2 {
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+}
+.item {
+    background: #333;
+    text-align: center;
+    height: 150px !important;
+
+    
+}
+
+
+textarea {
+    width: 100%;
+}
+
+
+@media screen and (min-width:320px){
+    .item{
+        height:200px !important;}
+}
+
+
+
+
+@media screen and (min-width:480px){
+    .item{
+        height:250px !important;}
+}
+
+@media screen and (min-width:800px){
+    .item{
+        height:500px !important;}
+}
+
+
